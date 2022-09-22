@@ -19,7 +19,9 @@
             "email": "ildrm@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    },
     "extra": {
         "class": "Ildrm\\PageQuotes"
     }
