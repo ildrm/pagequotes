@@ -1,0 +1,21 @@
+{
+    "name": "ildrm/pagequotes",
+    "description": "Page Quotes Package",
+    "license": "MIT",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Ildrm\\PageQuotes\\": "src/"
+        },
+        "files": [
+            "src/index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Shahin Ilderemi",
+            "email": "ildrm@hotmail.com"
+        }
+    ],
+    "require": {}
+}
