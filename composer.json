@@ -2,7 +2,6 @@
     "name": "ildrm/pagequotes",
     "description": "Page Quotes Package",
     "license": "MIT",
-    "type": "composer-plugin",
 	"keywords": ["pagequotes","page-quotes"],
 	"homepage": "https://github.com/ildrm/pagequotes",
     "autoload": {
@@ -21,8 +20,5 @@
     ],
     "require": {
         "composer-plugin-api": "2.3.0"
-    },
-    "extra": {
-        "class": "Ildrm\\PageQuotes"
     }
 }
