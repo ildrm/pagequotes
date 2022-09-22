@@ -3,6 +3,8 @@
     "description": "Page Quotes Package",
     "license": "MIT",
     "type": "composer-plugin",
+	"keywords": ["pagequotes","page-quotes"],
+	"homepage": "https://github.com/ildrm/pagequotes",
     "autoload": {
         "psr-4": {
             "Ildrm\\PageQuotes\\": "src/"
