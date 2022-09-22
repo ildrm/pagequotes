@@ -19,5 +19,8 @@
             "email": "ildrm@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "class": "Ildrm\\PageQuotes"
+    }
 }

@@ -7,18 +7,18 @@ namespace Composer\Autoload;
 class ComposerStaticInit329436584d4f3be06c92318b064af9c8
 {
     public static $files = array (
-        '899836f6a7abc3bd2658fa133bba7d7f' => __DIR__ . '/../..' . '/src/index.php',
+        '0321e11e6f8996fb6e696cdfa6853fa9' => __DIR__ . '/../..' . '/src/index.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'Ildrm\\Test\\' => 11,
+            'Ildrm\\PageQuotes\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Ildrm\\Test\\' => 
+        'Ildrm\\PageQuotes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
