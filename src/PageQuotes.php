@@ -53,7 +53,8 @@ class PageQuotes {
      */
     public function printQuotes(string $page, int $max=0): string
     {
-        $quotes = $this->getQuotes($page, $max);
+        $all_quotes = $this->getQuotes($page, $max);
+        $quotes = array_rand($all_quotes,1);
         $html = '';
         foreach ($quotes as $quote) {
             $html .= "<div>$quote</div>\n";
